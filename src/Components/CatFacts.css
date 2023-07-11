@@ -1,0 +1,26 @@
+.cat-facts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cat-fact {
+    animation: fade 5s infinite;
+    opacity: 0;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
